@@ -6,7 +6,9 @@ In order to run the app you should first have Node.js installed, which can be fo
 
 https://nodejs.org/en/download/
 
-Once installed, run the Node Command Prompt and make sure you are in the app's directory, which should presumably look like yourPath/DNA--master.
+Once installed, run the newly installed Node Command Prompt and make sure you are in the app's directory, by typing (assuming you haven't renamed the downloaded folder):
+
+### cd <yourPath>/DNA--master
 
 Once in the directory, install the dependencies by running:
 
