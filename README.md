@@ -1,12 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How to run
 
-In the project directory, you can run:
+In order to run the app you should first have Node.js installed. Once installed, make run the Node Command Prompt and make sure you are in the app's directory, which should look like yourPath/DNA--master.
+
+Once in the directory, install the dependencies by typing:
+
+### `npm install`
+
+This should take a few minutes. Once finished, run:
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
+And you should be able to run the app!
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
