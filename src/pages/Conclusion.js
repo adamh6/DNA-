@@ -97,7 +97,7 @@ class Intro extends Component {
           <Col lg="6" md="12">
           <figure style={imageStyle}>
             <img src={Wilkins} alt="Maurice Wilkins" />
-          <figcaption>Maurice Wilinks</figcaption>
+          <figcaption>Maurice Wilkins</figcaption>
           </figure>
           </Col>
         </Row>
