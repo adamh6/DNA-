@@ -12,16 +12,6 @@ import Popup from 'reactjs-popup';
     </Popup>
   )
 
-  const Finish = () => (
-      <Popup trigger={<Button style={next}> Finish!</Button>} modal>
-      <div style={{textAlign: 'center'}}>
-        <h2>You're done!</h2>
-        <p>You're all caught up with the introduction.</p>
-        <p>Feel free to repeat the course as much as you'd like!</p>
-      </div>
-      </Popup>
-  )
-
 const next = {
   position: 'absolute',
   bottom: '0',
@@ -94,7 +84,7 @@ class Intro2 extends Component {
         </Row>
 
         <NavLink to="./Intro"><Button style={back}><i class="fas fa-long-arrow-alt-left"></i></Button></NavLink>
-        <Finish></Finish>
+        <NavLink to="./Conclusion"><Button style={next}><i class="fas fa-long-arrow-alt-right"></i></Button></NavLink>
       </div>
     );
   }
